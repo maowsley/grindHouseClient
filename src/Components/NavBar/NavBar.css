@@ -7,7 +7,7 @@ height: 200px;
 left: 0px;
 top: 0px;
 
-background: #6D4C3D;
+
 }
 
 .LogoText {
@@ -99,12 +99,3 @@ color: #DCC9B6;
 
 }
 
-.homemuglogo{
-position: absolute;
-left: 8.7%;
-right: 59.11%;
-top: 6.11%;
-bottom: 77.82%;
-
-background: #727D71;
-}

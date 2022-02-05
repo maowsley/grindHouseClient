@@ -6,6 +6,7 @@ import './NavBar.css';
 
 
 
+
 class Navbar extends React.Component {
     constructor(props: {}) {
         super(props)
@@ -19,7 +20,7 @@ class Navbar extends React.Component {
                 <div className="HomeHome">Home</div>
                 <div className="ReviewsH">Reviews</div>
                 <div className="CoffeeNotesH">Coffee Notes</div>
-                <div className=".homemuglogo"></div>
+              
             </div>
         )
     }

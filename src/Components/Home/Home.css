@@ -1,5 +1,52 @@
 
 
+
+.homemuglogo{
+    position: relative;
+    color: #727D71;
+    left: 110px;
+    top: 100px;
+
+}
+.Hometitle {
+    font-family: Roboto;
+    color:#727D71;
+    font-weight: 900;
+    position: relative;
+    left: 1150px;
+    top: -620px;
+    font-size:100px;
+    line-height: 100px !important;
+    white-space: pre-line;
+
+}
+
+.hometextpassage {
+  font-family: Roboto;  
+  color: #6D4C3D;
+  font-weight: 545;
+  position: relative;
+  left: 1150px;
+  top: -580px;
+  font-size: 32px;
+  line-height: 41px;
+  white-space: pre-line;
+}
+.custom-btn {
+    position: relative;
+    left: 1148px;
+    top: -560px;
+    background-color: #6D4C3D !important;
+    font-size: 50px !important;
+    color:#DCC9B6 !important;
+    border-color: #6D4C3D !important;
+    border-radius: 20px !important;
+    
+
+    
+
+}
+
 .Home {
  position: absolute;
 width: 1920px;
