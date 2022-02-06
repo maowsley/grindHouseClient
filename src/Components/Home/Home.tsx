@@ -3,6 +3,9 @@ import './Home.css';
 import {FaCoffee} from "react-icons/fa";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import {Button} from 'react-bootstrap';
+import topgraph from "./coffehousetophome.svg";
+
+
 
 
 
@@ -36,10 +39,24 @@ class Home extends React.Component {
              chocolate.
             </p>
             <Button variant="primary" size="lg" className="custom-btn">Home</Button>{" "}
-
-           
             <div className="CoffeeMenuHome">
+            <p className="menuHTitle">
+            Coffee Menu @{"\n"}
+            Your Finger Tips
+            </p>
+            <p className="menuHomeText">
+              We offer a varity of different luxury{"\n"}
+              beverages to quench your everlasting{"\n"}  
+              thrist. We offer iced and hot coffee,{"\n"}
+              specialze teas and custom hot{"\n"}
+              chocolate for the kiddios. Not really{"\n"}
+              a coffee drinker? No problem, we also{"\n"}
+              offer Coca-Cola and Pespi products!{"\n"}
+            </p>
+            <img src={topgraph} className="top"></img>
+           
             <div className="ReviewsHome">
+          
                 
             </div>
             </div>

@@ -48,7 +48,7 @@
 }
 
 .Home {
- position: absolute;
+position: absolute;
 width: 1920px;
 height: 1080px;
 left: 0px;
@@ -56,6 +56,49 @@ top: 130px;
 
 background-color: #DCC9B6;
 
+
+
+}
+
+.menuHTitle {
+    color: #6D4C3D;
+    position: relative;
+    white-space: pre-line;
+    left: 200px;
+    top: 170px;
+    font-size: 100px;
+    line-height: 100px;
+    font-weight: 900;
+    font-family: Roboto;
+    z-index: 1;
+}
+
+.menuHomeText{
+color: #6D4C3D;
+position: relative;
+white-space: pre-line;
+left: 200px;
+top: 190px;
+font-size: 40px;
+font-weight: 530;
+font-family: Roboto;
+z-index: 1;
+line-height: 50px;
+}
+
+
+
+
+.top {
+    position: relative;
+    width: 1999px;
+    height: 1890px;
+    filter:invert(87%) sepia(21%) saturate(226%) hue-rotate(348deg) brightness(91%) contrast(92%);
+    opacity: 70%;
+    z-index: 0;
+    padding: 0%;
+    left: -50px;
+    top: -600px;
 
 }
 
@@ -68,6 +111,8 @@ background-color: #DCC9B6;
     background-color: #ABC4AB;
 
 }
+
+
 
 
 .ReviewsHome {
