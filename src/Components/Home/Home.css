@@ -24,7 +24,7 @@
 .hometextpassage {
   font-family: Roboto;  
   color: #6D4C3D;
-  font-weight: 545;
+  font-weight: 500;
   position: relative;
   left: 1150px;
   top: -580px;
@@ -147,7 +147,53 @@ line-height: 50px;
 }
 
 
+.squareHome {
+    position: absolute;
+    filter: invert(87%) sepia(12%) saturate(390%) hue-rotate(349deg) brightness(93%) contrast(91%);
+    top: 350px;
+    width: 800px;
+    left: 40px;
+    
+}
 
+.gif {
+    position: absolute;
+    top: 300px;
+    width: 800px;
+    height: 500px;
+    
+}
+
+.reviewsH {
+    z-index: 1;
+    white-space: pre-line;
+    color: #DCC9B6;
+    left: 1100px;
+    top: 300px;
+    font-size: 90px;
+    position: absolute;
+    line-height: 78px;
+    font-weight: 600;
+    font-family: Roboto;
+
+}
+
+.notesText{
+    z-index: 1;
+    white-space: pre-line;
+    color:#DCC9B6;
+    left: 1100px;
+    top: 500px;
+    position: absolute;
+    font-family: Roboto;
+    font-size: 40px;
+    line-height: 49px;
+    
+}
+.reviewsbut {
+    top: 300px;
+    background-color: #DCC9B6;
+}
 
 
 
@@ -156,7 +202,7 @@ position: absolute;
 width: 1920px;
 height: 1080px;
 left: 0px;
-top: 1080px;
+top: 1050px;
 
 background: #6D4C3D;
 

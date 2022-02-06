@@ -6,11 +6,8 @@ import blackRec from './blacrec.png';
 import coffeePour from './coffeepour.jpeg';
 import {Button} from 'react-bootstrap';
 import topgraph from "./coffehousetophome.svg";
-
-
-
-
-
+import square from "./blacksquare.png";
+import coffeeGif from "./coffeegifh.gif";
 
 
 
@@ -32,13 +29,13 @@ class Home extends React.Component {
             Luxury Service
             </text>
             <p className="hometextpassage">
-             It's finally here! Premium roasted coffee is now available{"\n"}
-             in your hometown. No need to drive out of town to get{"\n"}
-             your luxury coffee fix. Our coffee is made from coffee{"\n"}
-             beans imported from the South American continent.{"\n"}
-             GRIND HOUSE also offer specialty teas, ice coffee{"\n"}
-             and other non caffeinated drinks such as luxury hot{"\n"}
-             chocolate.
+            It's finally here! Premium roasted coffee is now{"\n"}
+            available in your hometown. No need to drive out of{"\n"}
+            town to get your luxury coffee fix. Our coffee{"\n"}
+            beans are imported from the South American continent.{"\n"}
+            GRIND HOUSE also offers specialty teas, ice coffee{"\n"}
+            and other non caffeinated drinks such as luxury hot{"\n"}
+            chocolate.
             </p>
             <Button variant="primary" size="lg" className="custom-btn">Home</Button>{" "}
             <div className="CoffeeMenuHome">
@@ -63,6 +60,23 @@ class Home extends React.Component {
             
            
             <div className="ReviewsHome">
+            <img src={square} className="squareHome"></img>
+            <img src={coffeeGif} className="gif"></img>
+            <text className="reviewsH"> 
+            5 Star Reviews +{"\n"}
+            Coffee Notes
+            </text>
+            <text className="notesText">
+                The GRINDHOUSE has become eveyone's{"\n"}
+                favorite luxury coffee shop. In 2021{"\n"}
+                the GRINDHOUSE won the "Best Coffee{"\n"}
+                Design award for best unique ice coffee{"\n"}
+                notes, post and view reviews from happy{"\n"}
+                GRINDHOUSE customers!{"\n"}
+            </text>
+            <Button 
+            
+            size="lg" className="reviewsbut">Reviews</Button>
           
                 
             </div>
