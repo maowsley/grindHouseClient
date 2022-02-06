@@ -2,6 +2,8 @@ import React from "react"
 import './Home.css';
 import {FaCoffee} from "react-icons/fa";
 import 'bootstrap/dist/css/bootstrap.min.css';
+import blackRec from './blacrec.png';
+import coffeePour from './coffeepour.jpeg';
 import {Button} from 'react-bootstrap';
 import topgraph from "./coffehousetophome.svg";
 
@@ -44,6 +46,7 @@ class Home extends React.Component {
             Coffee Menu @{"\n"}
             Your Finger Tips
             </p>
+           
             <p className="menuHomeText">
               We offer a varity of different luxury{"\n"}
               beverages to quench your everlasting{"\n"}  
@@ -53,8 +56,11 @@ class Home extends React.Component {
               a coffee drinker? No problem, we also{"\n"}
               offer Coca-Cola and Pespi products!{"\n"}
             </p>
+            <img src={blackRec} className="blackRec"></img>
+            <img src={coffeePour} className="coffeePour"></img>
             <Button variant="secondary" size="lg" id="custom-btn">Menu</Button>
             <img src={topgraph} className="top"></img>
+            
            
             <div className="ReviewsHome">
           

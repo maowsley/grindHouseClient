@@ -87,19 +87,37 @@ z-index: 1;
 line-height: 50px;
 }
 
+
+
 #custom-btn {
     z-index: 1;
-    position: relative;
+    position: absolute;
     background-color: #727D71 !important;
-    top: 230px;
+    top: 850px;
     left:200px;
     font-size: 50px !important;
     border-radius: 20px !important;
     border-color: #727D71 !important;
     color:#DCC9B6 !important;
+}
 
+.blackRec {
+    z-index: 1;
+    position:absolute;
+    filter: invert(27%) sepia(13%) saturate(1561%) hue-rotate(334deg) brightness(98%) contrast(79%);
+    left: 1200px;
+    top: 250px;
+    width:500px;
+    height: 700px;
+}
 
-    
+.coffeePour {
+    z-index: 2;
+    position: absolute;
+    left: 1120px;
+    top:200px;
+    width: 500px;
+    height: 700px;
 }
 
 
@@ -110,7 +128,7 @@ line-height: 50px;
     width: 1999px;
     height: 1890px;
     filter:invert(87%) sepia(21%) saturate(226%) hue-rotate(348deg) brightness(91%) contrast(92%);
-    opacity: 35%;
+    opacity: 39%;
     z-index: 0;
     padding: 0%;
     left: -50px;
@@ -127,6 +145,8 @@ line-height: 50px;
     background-color: #ABC4AB;
 
 }
+
+
 
 
 
