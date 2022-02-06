@@ -1,25 +1,43 @@
-import React from "react"
+import React, {Component} from "react"
 import './Home.css';
 import {FaCoffee} from "react-icons/fa";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import blackRec from './blacrec.png';
 import coffeePour from './coffeepour.jpeg';
-import {Button} from 'react-bootstrap';
+import {Button, ThemeProvider} from 'react-bootstrap';
 import topgraph from "./coffehousetophome.svg";
 import square from "./blacksquare.png";
 import coffeeGif from "./coffeegifh.gif";
 
+import Footer from "../Footer/footer";
+
+type AuthProps = {
+    email: string,
+    password: string,
+}
 
 
-class Home extends React.Component {
-    constructor(props: {}) {
-        super(props)
+
+class Home extends Component<{}, AuthProps> {
+    constructor(props: any) {
+        super(props);
+        this.state = {
+            email: " ",
+            password: " "
+        };
     }
+
+    getAuth = () => {
+
+    }
+
+  
 
     render() {
         return (
             <div>
             <div className="Home">
+           
             <div className="homemuglogo">
                 < FaCoffee size={'800px'} />
             </div>
@@ -37,7 +55,7 @@ class Home extends React.Component {
             and other non caffeinated drinks such as luxury hot{"\n"}
             chocolate.
             </p>
-            <Button variant="primary" size="lg" className="custom-btn">Home</Button>{" "}
+            <Button variant="secondary" size="lg" className="custom-btn">Home</Button>{" "}
             <div className="CoffeeMenuHome">
             <p className="menuHTitle">
             Coffee Menu @{"\n"}
@@ -74,11 +92,10 @@ class Home extends React.Component {
                 notes, post and view reviews from happy{"\n"}
                 GRINDHOUSE customers!{"\n"}
             </text>
-            <Button 
-            
-            size="lg" className="reviewsbut">Reviews</Button>
+            <Button variant="primary">Reviews</Button>
+            <Button variant="primary" className="notesbutton">Coffee Notes</Button>
           
-                
+            <Footer />              
             </div>
             </div>
                 </div>
@@ -91,3 +108,6 @@ class Home extends React.Component {
 
 
 export default Home;
+
+
+
