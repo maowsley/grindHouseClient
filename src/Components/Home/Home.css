@@ -31,6 +31,7 @@
   font-size: 32px;
   line-height: 41px;
   white-space: pre-line;
+  z-index: 1;
 }
 .custom-btn {
     position: relative;
@@ -41,7 +42,7 @@
     color:#DCC9B6 !important;
     border-color: #6D4C3D !important;
     border-radius: 20px !important;
-    
+    z-index: 1;
 
     
 
@@ -86,19 +87,34 @@ z-index: 1;
 line-height: 50px;
 }
 
+#custom-btn {
+    z-index: 1;
+    position: relative;
+    background-color: #727D71 !important;
+    top: 230px;
+    left:200px;
+    font-size: 50px !important;
+    border-radius: 20px !important;
+    border-color: #727D71 !important;
+    color:#DCC9B6 !important;
+
+
+    
+}
+
 
 
 
 .top {
-    position: relative;
+    position: fixed;
     width: 1999px;
     height: 1890px;
     filter:invert(87%) sepia(21%) saturate(226%) hue-rotate(348deg) brightness(91%) contrast(92%);
-    opacity: 70%;
+    opacity: 35%;
     z-index: 0;
     padding: 0%;
     left: -50px;
-    top: -600px;
+    top: -680px;
 
 }
 

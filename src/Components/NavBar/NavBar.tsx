@@ -16,10 +16,10 @@ class Navbar extends React.Component {
         return (
             <div className="NavBar">
                 <div className="LogoText">GRINDHOUSE</div>
-                <div className="CoffeeSearchHome">Coffee Search</div>
+                <div className="CoffeeSearchHome">Menu</div>
                 <div className="HomeHome">Home</div>
                 <div className="ReviewsH">Reviews</div>
-                <div className="CoffeeNotesH">Coffee Notes</div>
+                <div className="CoffeeNotesH">CoffeeNotes</div>
               
             </div>
         )

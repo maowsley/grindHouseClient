@@ -15,7 +15,8 @@ position: absolute;
 width: 436px;
 height: 72px;
 left: 720px;
-top: 37px;
+top: 20px;
+z-index: 1;
 
 font-family: Poppins;
 font-style: normal;
@@ -33,13 +34,15 @@ color: #DCC9B6;
 position: absolute;
 width: 957px;
 height: 62px;
-left: 167px;
+left: 170px;
 top: 37px;
+z-index: 1;
+
 
 font-family: Poppins;
 font-style: normal;
 font-weight: 500;
-font-size: 24px;
+font-size: 40px;
 line-height: 36px;
 letter-spacing: 0.23em;
 
@@ -56,28 +59,30 @@ top: 37px;
 font-family: Poppins;
 font-style: normal;
 font-weight: 500;
-font-size: 24px;
+font-size: 40px;
 line-height: 36px;
 letter-spacing: 0.23em;
 
 color: #DCC9B6;
+z-index: 1;
 }
 
 .ReviewsH {
 position: absolute;
 width: 526px;
 height: 85px;
-left: 1313px;
+left: 1280px;
 top: 37px;
 
 font-family: Poppins;
 font-style: normal;
 font-weight: 500;
-font-size: 24px;
+font-size: 40px;
 line-height: 36px;
 letter-spacing: 0.23em;
 
 color: #DCC9B6;
+z-index: 1;
 
 }
 
@@ -87,11 +92,12 @@ width: 644px;
 height: 72px;
 left: 1540px;
 top: 37px;
+z-index: 1;
 
 font-family: Poppins;
 font-style: normal;
 font-weight: 500;
-font-size: 24px;
+font-size: 40px;
 line-height: 36px;
 letter-spacing: 0.23em;
 

@@ -53,6 +53,7 @@ class Home extends React.Component {
               a coffee drinker? No problem, we also{"\n"}
               offer Coca-Cola and Pespi products!{"\n"}
             </p>
+            <Button variant="secondary" size="lg" id="custom-btn">Menu</Button>
             <img src={topgraph} className="top"></img>
            
             <div className="ReviewsHome">
