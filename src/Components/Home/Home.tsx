@@ -14,22 +14,16 @@ import DrinkNotes from '../DrinkNotes/coffeeNotes';
 import DrinkReviews from "../Reviews/reviews";
 import Footer from "../Footer/footer";
 
-type AuthProps = {
-    email: string,
-    password: string,
-}
 
 
 
-class Home extends Component<{}, AuthProps> {
+class Home extends React.Component<{}, {}> {
   
-  
-
     render() {
         return (
             <div>
             <div className="Home">
-           
+            < NavBar />
             <div className="homemuglogo">
                 < FaCoffee size={'800px'} />
             </div>
@@ -84,6 +78,7 @@ class Home extends Component<{}, AuthProps> {
                 notes, post and view reviews from happy{"\n"}
                 GRINDHOUSE customers!{"\n"}
             </text>
+            < DrinkNotes />
             <Button variant="primary">Reviews</Button>
             <Auth />
             <Button variant="primary" className="notesbutton">Coffee Notes</Button>
@@ -93,11 +88,10 @@ class Home extends Component<{}, AuthProps> {
             </div>
             </div>
                 </div>
-           
             </div>
         )
     }
-}
+};
 
 
 

@@ -3,6 +3,7 @@ import React, { Component } from 'react';
 import { render } from 'react-dom';
 import APIURL from '../../helpers/environment';
 import ReviewsDisplay from "./reviewsDisplay";
+import Comments from "../Comments/comment";
 
 type DataNotes = {
     title: string,
@@ -45,6 +46,7 @@ class DrinkReviews extends React.Component<{}, DataNotes> {
             <div className='mainDiv'>
                 <div className='reviewss'>
                     < ReviewsDisplay />
+                    <Comments />
                 </div>
             </div>
         )

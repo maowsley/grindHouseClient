@@ -16,7 +16,9 @@ type title = {
 const Footer = () => {
     return (
         <div className="mainDiv">
-         
+         <div className="Footer">
+             
+         </div>
             </div>
       
     )
