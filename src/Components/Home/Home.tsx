@@ -8,7 +8,10 @@ import {Button, ThemeProvider} from 'react-bootstrap';
 import topgraph from "./coffehousetophome.svg";
 import square from "./blacksquare.png";
 import coffeeGif from "./coffeegifh.gif";
-
+import Auth from "../Auth/Auth";
+import NavBar from "../NavBar/NavBar";
+import DrinkNotes from '../DrinkNotes/coffeeNotes';
+import DrinkReviews from "../Reviews/reviews";
 import Footer from "../Footer/footer";
 
 type AuthProps = {
@@ -19,18 +22,7 @@ type AuthProps = {
 
 
 class Home extends Component<{}, AuthProps> {
-    constructor(props: any) {
-        super(props);
-        this.state = {
-            email: " ",
-            password: " "
-        };
-    }
-
-    getAuth = () => {
-
-    }
-
+  
   
 
     render() {
@@ -93,7 +85,9 @@ class Home extends Component<{}, AuthProps> {
                 GRINDHOUSE customers!{"\n"}
             </text>
             <Button variant="primary">Reviews</Button>
+            <Auth />
             <Button variant="primary" className="notesbutton">Coffee Notes</Button>
+            <DrinkReviews />
           
             <Footer />              
             </div>
